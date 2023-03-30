@@ -195,7 +195,7 @@ letter-spacing: 0.4px;
     width:100%;
     border-left: 6px solid black;
     /* background-color: red; */
-    background-image: url('./images/fundobomaePE.png');
+    background-image: url('../images/fundobomaePE.png');
     background-size:cover;
     background-position: center;
     display:block;
