@@ -30,9 +30,11 @@ html { font-size: 62.5%; /*  CONVERTE O REM 16PX PARA 10PX */}
 
 
 body{
-
+    
     background: linear-gradient(180deg, #EBD38A 0% ,#af5c4f 100%);
+    
     background-repeat:no-repeat;
+    
     
     min-height: 100vh;
     
@@ -43,9 +45,7 @@ nav#container{
    display:flex;
    flex-direction: column;
 }
-.li{
-    background-color: red;
-}
+
 .home_button{
     background-color: #af5c4f;
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -151,3 +151,30 @@ nav#container{
 }
 
 
+.base-white {
+    background-color: #fff;
+    box-sizing: center;
+    margin:0 auto;
+    width: 40%;
+    padding: 20px;
+    border-radius:25px;
+    
+    box-shadow: 3px 3px 5px rgb(0, 0, 0,0.5);
+    
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: poppins;
+    margin-top: 0;
+    font-weight: 40rem;
+    font-size: 48px;
+    
+  }
+  
+.article.content{
+    display: flex;
+    font-size: 500px;
+    background-color: #000000;
+    background: #000000;
+  }
